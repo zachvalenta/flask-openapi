@@ -32,7 +32,7 @@ flask:
 	poetry run flask run
 
 get:
-	poetry run http http://localhost:5000
+	poetry run http http://localhost:5000/index?echo=zjv
 
 #
 # 📊 CODE QUALITY

@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/index")
 def index():
-    return "new flask app"
+    echo = request.args.get("echo")
+    return f"hai, {echo}"
