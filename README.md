@@ -4,7 +4,7 @@ Example app to demo API Star w/ an OpenAPI service.
 
 # how to use?
 
-* __Git__: clone the repo, then make it your own by removing the connection to this remote (`git remote rm git@github.com:zachvalenta/flask-skeleton.git`) and re-initializing the commit history (`rm .git` then `git init`)
+* __Git__: clone the repo, then make it your own by removing the connection to this remote (`git remote rm git@github.com:zachvalenta/flask-openapi.git`) and re-initializing the commit history (`rm .git` then `git init`)
 * __dependencies__: `poetry install`
 * __env var__: `ln -sf .env.dev .env`
 * __run__: `make flask`
