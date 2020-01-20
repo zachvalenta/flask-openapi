@@ -4,8 +4,10 @@ help:
 	@echo
 	@echo "======================================================================"
 	@echo
-	@echo "🛠  UTILS"
+	@echo "📡  API"
 	@echo
+	@echo "valid:      validate schema.yaml"
+	@echo "docs:       start docs server"
 	@echo "flask:      start built-in Flask dev server"
 	@echo "get:        hit index endpoint"
 	@echo
@@ -27,6 +29,12 @@ help:
 #
 # 🛠 UTILS
 #
+
+valid:
+	poetry run apistar validate
+
+docs:
+	poetry run apistar docs --serve
 
 flask:
 	poetry run flask run

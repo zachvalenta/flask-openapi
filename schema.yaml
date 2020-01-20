@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Open Flask
+  version: '1.0'
+  description: hello world with Flask
+servers:
+  - url: http://localhost:5000
+paths:
+  /index:
+    get:
+      summary: index route
+      operationId: echoQueryString
+      parameters:
+      - in: query
+        name: echo
+        description: echo query string
+        schema:
+          type: string
