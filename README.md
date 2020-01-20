@@ -1,6 +1,6 @@
 # what is this?
 
-The Flask app from which all my other Flask apps derive.
+Example app to demo API Star w/ an OpenAPI service.
 
 # how to use?
 
@@ -13,8 +13,10 @@ The Flask app from which all my other Flask apps derive.
 ```Makefile
 ======================================================================
 
-🛠  UTILS
+📡  API
 
+valid:      validate schema.yaml
+docs:       start docs server
 flask:      start built-in Flask dev server
 get:        hit index endpoint
 
